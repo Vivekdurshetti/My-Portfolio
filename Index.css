@@ -79,6 +79,7 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
+    background-color: #111;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -165,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("Images/banner.jpg") no-repeat center;
+    background: url("/Images/banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -378,7 +379,7 @@ section .title::after{
     width: 20%;
 }
 
-/* teams section styling */
+/* teams section styling
 .teams .title::after{
     content: "who with me";
 }
@@ -439,21 +440,29 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
-}
+} */
 
 /* contact section styling */
+.contact {
+    background: #987a7a;
+}
+
 .contact .title::after{
-    content: "get in touch";
+    content: "Get in touch";
+    background-color: #987a7a;
+
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
 .contact .contact-content .text{
+    color: white;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .contact .contact-content .left p{
+    color: white;
     text-align: justify;
 }
 .contact .contact-content .left .icons{
@@ -472,10 +481,11 @@ section .title::after{
     color: crimson;
 }
 .contact .contact-content .info .head{
+    color: white;
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: white;
 }
 .contact .right form .fields{
     display: flex;
